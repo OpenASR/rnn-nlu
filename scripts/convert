@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#TODO --output_node_names='model_tmp/checkpoint' \
+tensorflowjs_converter \
+    --input_format=tf_saved_model \
+    --saved_model_tags=serve \
+    model_tmp/checkpoint \
+    model_web

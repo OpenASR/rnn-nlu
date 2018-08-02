@@ -21,7 +21,7 @@ Tensorflow implementation of attention-based LSTM models for sequence classifica
 docker run -it \
       -v "$PWD":/rnn-nlu \
       -w /rnn-nlu \
-      tensorflow/tensorflow \
+      openasr/rnn-nlu \
       bash
 
 data_dir=data/ATIS_samples

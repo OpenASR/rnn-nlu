@@ -1,0 +1,24 @@
+{
+  "name": "rnn-nlu",
+  "version": "1.0.0",
+  "description": "A TensorFlow implementation of Recurrent Neural Networks for Sequence Classification and Sequence Labeling",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenASR/rnn-nlu.git"
+  },
+  "keywords": [
+    "tensorflow",
+    "rnn",
+    "intent detection",
+    "slot filling"
+  ],
+  "author": "Bing Liu <liubing@cmu.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenASR/rnn-nlu/issues"
+  },
+  "homepage": "https://github.com/OpenASR/rnn-nlu#readme"
+}

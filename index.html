@@ -1,0 +1,21 @@
+<html>
+<head>
+    <!-- Load TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.0"> </script>
+
+    <script>
+        // import * as tf from '@tensorflow/tfjs';
+        import {loadFrozenModel} from '@tensorflow/tfjs-converter';
+
+        const MODEL_URL = 'https://.../mobilenet/web_model.pb';
+        const WEIGHTS_URL = 'https://.../mobilenet/weights_manifest.json';
+
+        const model = await loadFrozenModel(MODEL_URL, WEIGHTS_URL);
+        const cat = document.getElementById('cat');
+        model.execute({input: tf.fromPixels(cat)});
+    </script>
+</head>
+
+<body>
+</body>
+</html>
