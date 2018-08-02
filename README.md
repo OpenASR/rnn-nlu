@@ -2,6 +2,8 @@ Attention-based RNN model for Spoken Language Understanding (Intent Detection & 
 ==================
 Tensorflow implementation of attention-based LSTM models for sequence classification and sequence labeling.
 
+[![][travis-status-svg]][travis-build-status]
+
 **Updates - 2017/07/29**
 * Updated code to work with the latest TensorFlow API: r1.2
 * Code cleanup and formatting
@@ -56,3 +58,6 @@ pages={685--689}
 **Contact** 
 
 Feel free to email liubing@cmu.edu for any pertinent questions/bugs regarding the code. 
+
+[travis-build-status]: https://travis-ci.com/OpenASR/rnn-nlu
+[travis-status-svg]: https://travis-ci.com/OpenASR/rnn-nlu.svg?branch=master
