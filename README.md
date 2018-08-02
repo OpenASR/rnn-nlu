@@ -15,6 +15,13 @@ Tensorflow implementation of attention-based LSTM models for sequence classifica
 
 **Usage**:
 ```bash
+# (Optionally run within Docker)
+docker run -it \
+      -v "$PWD":/rnn-nlu \
+      -w /rnn-nlu \
+      tensorflow/tensorflow \
+      bash
+
 data_dir=data/ATIS_samples
 model_dir=model_tmp
 max_sequence_length=50  # max length for train/valid/test sequence
