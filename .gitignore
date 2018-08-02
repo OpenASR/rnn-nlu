@@ -1,0 +1,5 @@
+**/*.pyc
+model_tmp/
+data/ATIS_samples/**/*.ids*
+data/ATIS_samples/*_vocab_*
+data/ATIS_samples/label.txt
