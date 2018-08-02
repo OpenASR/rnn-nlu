@@ -1,3 +1,3 @@
-FROM tensorflow:tensorflow
+FROM tensorflow/tensorflow
 
 RUN pip install tensorflowjs
