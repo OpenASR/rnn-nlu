@@ -1,0 +1,7 @@
+sudo: required
+services:
+  - docker
+
+script:
+ - docker build -t openasr/rnn-nlu .
+ - docker push openasr/rnn-nlu
